@@ -9,13 +9,6 @@ namespace Dz19
             Console.Write("Enter name file: ");
             string sfile=Console.ReadLine();
             string path = Directory.GetCurrentDirectory() + @"\"+ sfile +".json";
-            //MyDictionaries myDictionarie1 = new MyDictionaries(1, "Orange", "Апельсин");
-            //myDictionarie1.AddTranslation("Оранжевый");
-            //myDictionaries.Add(myDictionarie1);
-
-            //MyDictionaries myDictionarie2 = new MyDictionaries(2, "All", "Все");
-            //myDictionarie2.AddTranslation("Всё");
-            //myDictionaries.Add(myDictionarie2);
 
             var options = new JsonSerializerOptions
             {
